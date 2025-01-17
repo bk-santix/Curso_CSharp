@@ -9,7 +9,7 @@ namespace Ex006
         static void Main(string[] args)
         {
             double Nota_final = 70;
-            string resultado = "Reprovado";
+            string resultado;
 
             //Condicões 
 
@@ -18,11 +18,20 @@ namespace Ex006
                 resultado = "Aprovado";
 
             }
+            else if (Nota_final >= 40)
+            {
+                resultado = "Recuperação";
+            }
             else
             {
                 resultado = "Reprovado";
             }
+            
+          
+
             Console.WriteLine("O aluno foi {0}", resultado);
+
+            
             
             
 
