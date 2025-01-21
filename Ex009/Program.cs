@@ -29,11 +29,50 @@
             {
                 Console.WriteLine("Os valores informados formam um triagulo");
 
-            }
-            else
-            {
+
+
                 Console.WriteLine("Os valores não formam um triagulo");
+                if ((ladoA == ladoB) && (ladoB == ladoC))
+                {
+
+                    Console.WriteLine("Ele e um triangulo Equilátero. ");
+                }
+
+
+                else if ((ladoA == ladoB) || (ladoA == ladoC) || (ladoB == ladoC))
+                {
+                    Console.WriteLine("Ele e um triagulo Isósceles.  ");
+
+                }
+                else
+                {
+                    Console.WriteLine("E ele é um triagulo Escaleno. ");
+
+
+                    Console.ReadLine();
+
+
+                }
+
+
+
+
             }
+            
+            
+              
+
+               
+               
+
+
+
+
+
+
+
+
+
              
 
 
