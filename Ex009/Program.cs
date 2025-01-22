@@ -49,8 +49,8 @@
                     Console.WriteLine("E ele é um triagulo Escaleno. ");
 
 
-                    Console.ReadLine();
-
+                    
+    
 
                 }
 
