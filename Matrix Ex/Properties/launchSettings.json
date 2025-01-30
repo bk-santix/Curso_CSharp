@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "Matrix Ex": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}

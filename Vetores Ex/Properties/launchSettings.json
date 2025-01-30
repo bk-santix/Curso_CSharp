@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "Vetores Ex": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}
