@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "Escrever": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}
