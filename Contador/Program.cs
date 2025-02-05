@@ -4,21 +4,49 @@
     {
         static void Main(string[] args)
         {
+
+          
             Contador(1, 10, 1);
             Contador(10, 0, 2);
-        }
-
-
-
-        static void Contador(int inicio, int fim, int passo)
-        {
+          
+           
+            
+            
             Escrever("Agora e sua vez de personalizar a contagem");
+            
             Console.WriteLine("Digite o inicio");
             int ini = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Digite o Fim");
             int final = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Digite o passo");
             int pas = Convert.ToInt32(Console.ReadLine());
+            Contador(ini, final, pas);
+
+        }
+
+        
+
+        static void Contador(int inicio, int fim, int passo)
+
+        {
+            if (passo < 0)
+            {
+                passo *= -1;
+            }
+                
+
+       
+         
+
+
+            
+
+           
+
+
+
+
+
 
             if (inicio < fim)
             {
@@ -31,15 +59,25 @@
             }
             else
             {
-                int cont = inicio;
-                while (cont <= fim)
+                int cont = passo;
+                while (cont >= fim )
                 {
                     Console.Write($"{cont} ");
                     Thread.Sleep(500);
-                    cont -= passo;
+                    cont -=  passo;
                 }
+                
+                   
+                
                 Console.WriteLine("Fim!");
+
             }
+
+            
+
+            
+               
+            
         }
 
         static void Escrever(string Texto)

@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "Calculo de IMC": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}
